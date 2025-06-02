@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './Home';
+import Projects from './Projects';
+import Extras from './Extras';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar expand="lg" className="bg-body-tertiary">
+        <Container>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
+              <Nav.Link as={Link} to="/Extras">Extras</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Extras" element={<Extras />} />
+      </Routes>
     </div>
   );
 }
