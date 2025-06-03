@@ -11,17 +11,15 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container>
+      <Navbar expand="lg" className="custom-navbar">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Nav className="ms-5">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/Extras">Extras</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-        </Container>
       </Navbar>
 
       <Routes>

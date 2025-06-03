@@ -1,5 +1,17 @@
 .App {
-  text-align: center;
+
+}
+
+.custom-navbar {
+  background-color: #4E4E4E !important;
+}
+
+.navbar {
+  padding:  0px !important;
+}
+
+#basic-navbar-nav {
+  background-color: white;
 }
 
 .App-logo {

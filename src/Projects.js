@@ -1,7 +1,10 @@
+import './Projects.css';
 import React from 'react';
 
 function Projects() {
-  return <div><h2>Projects </h2></div>;
+  return <div className='projects'>
+    <h2>Projects </h2>
+    </div>;
 }
 
 export default Projects;
