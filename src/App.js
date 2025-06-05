@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar expand="lg" className="custom-navbar">
+      <Navbar expand="lg" variant="green" className="custom-navbar">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-5">

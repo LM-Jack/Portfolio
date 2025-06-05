@@ -1,8 +1,175 @@
+.Extras{
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;   
+  }
+
+  .Extras::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Vision.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 30%;
+    z-index: -1;  
+  }
+
+  .Extras h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: black;
+    opacity: 100%;
+}
+
 .otherwork {
     background-color: #4E4E4E;
     color: white;
+    padding:20px;
 }
 .otherimages {
     background-color: #4E4E4E;
     color: white;
+    padding:20px;
+}
+
+.work1 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .work1 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/Screenshot 2024-05-02 at 11.13.46 AM.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .work1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Screenshot 2024-05-02 at 11.13.46 AM.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .work1 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
+}
+
+
+.image1 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .image1 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/Customer Journey Map Brainstorm Whiteboard in Blue Pink Green Grey Spaced Color Blocks Style.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .image1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Customer Journey Map Brainstorm Whiteboard in Blue Pink Green Grey Spaced Color Blocks Style.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .image1 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
+}
+
+.image2 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .image2 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/Wilson Poster.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .image2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Wilson Poster.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .image2 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
 }

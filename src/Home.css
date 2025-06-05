@@ -1,17 +1,185 @@
 .bio {
     background-color: #475E53;
     color: white;
+    padding: 50px;
 }
 
 H2 {
     text-align: center;
+    margin: 0px !important;
 }
+
 p {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
 }
-.projects {
+.projectshome {
     background-color: #4E4E4E;
     color: white;
+    padding: 20px;
+}
+
+.Portfolio {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;      
+  }
+
+  .Portfolio::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Wilson Poster.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 30%;
+    z-index: -1;  
+  }
+
+  .Portfolio h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: black;
+    opacity: 100%;
+}
+
+.project1 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .project1 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/Desktop Home Page.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .project1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Desktop Community Page.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .project1 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
+}
+
+.project2 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .project2 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/Screenshot 2024-07-09 at 1.01.05 PM.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .project2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/Screenshot 2024-07-09 at 1.01.24 PM.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .project2 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
+}
+
+.project3 {
+    padding: 100px;             
+    position: relative;
+    z-index: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #4E4E4E;  
+    display: flex;
+    align-items:center;
+    gap: 20%;   
+  }
+
+  .project3 img{
+    width: 642px;
+    height:374px;
+    background-image: url('/Users/LM/my-app/public/SquadoPrototype-1.png');
+    background-size: cover;
+    background-position: 20%;
+    border: 7px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+  }
+
+  .project3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('/Users/LM/my-app/public/SquadoPrototype-1.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 50%;
+    z-index: -1;  
+  }
+
+  .project3 h2 {
+    text-align: center;
+    font-size: 4rem; 
+    color: white;
+    opacity: 100%;
 }
