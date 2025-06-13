@@ -1,3 +1,47 @@
+Installation guide
+Instructions to run
+
+Requirements
+Before starting make sure you have:
+Node.js
+VS Code
+
+Folder Structure
+Portfolio/
+ ─ public/
+  ── index.html
+ ─ src/
+  ── App.js
+  ── App.css
+  ── index.js
+ ─ package.json
+ ─ README.md
+
+Installation Steps
+
+1. Open Terminal
+Navigate to the project folder by using cd [PATH_OF_PROJECT_FOLDER]
+For example: cd /Users/LM/Documents/Dev/Portfolio/
+Tip: to find the exact path of the file right click the Portfolio folder and click ‘Copy Path’
+2. Install dependencies
+Once you have navigated to the correct folder run npm install in your terminal to            install all dependencies required
+
+ 3. Start the Website
+To launch the website in your browser simply run npm start in your terminal and                after a few seconds the website should open in a new tab at http://localhost:3000
+
+Common Issues
+ Missing script: "start"
+Make sure your package.json file has the following:
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build"
+}
+
+If it's missing, add it and save the file.
+Can't resolve 'web-vitals'
+Install the missing dependency by running :
+npm install web-vitals
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
