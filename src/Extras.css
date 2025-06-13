@@ -30,12 +30,19 @@
 .otherwork {
   background-color: #4e4e4e;
   color: white;
-  padding: 20px;
+  padding: 70px;
 }
+
 .otherimages {
   background-color: #4e4e4e;
   color: white;
-  padding: 20px;
+  padding: 70px;
+}
+
+.otherwork h2,
+.otherimages h2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 4rem;
 }
 
 .work1 {
@@ -114,7 +121,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("/Customer Journey Map Brainstorm Whiteboard in Blue Pink Green Grey Spaced Color Blocks Style.png");
+  background-image: url("./assets/Customer Journey Map.png");
   background-size: cover;
   background-position: center;
   opacity: 50%;
@@ -137,13 +144,13 @@
   background-color: #4e4e4e;
   display: flex;
   align-items: center;
-  gap: 20%;
+  gap: 40%;
 }
 
 .image2 img {
   width: 642px;
   height: 374px;
-  background-image: url("/Wilson Poster.png");
+  background-image: url("./assets/Wilson Poster.png");
   background-size: cover;
   background-position: 20%;
   border: 7px;
@@ -159,7 +166,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("/Wilson Poster.png");
+  background-image: url("./assets/Wilson Poster.png");
   background-size: cover;
   background-position: center;
   opacity: 50%;
@@ -171,4 +178,12 @@
   font-size: 4rem;
   color: white;
   opacity: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .work1 img,
+  .image1 img,
+  .image2 img {
+    display: none;
+  }
 }

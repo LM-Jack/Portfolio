@@ -13,7 +13,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("src\assets\TCC\TCC1.png");
+  background-image: url("./assets/TCC/TCC1.png");
   background-size: cover;
   background-position: center;
   opacity: 30%;
@@ -25,4 +25,13 @@
   font-size: 4rem;
   color: black;
   opacity: 100%;
+}
+
+.lists h3 h4 {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 3rem;
+}
+
+.lists li {
+  font-family: 'Inter', sans-serif;
 }

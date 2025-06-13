@@ -1,12 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hermeneus+One&family=Italianno&family=Kadwa:wght@400;700&family=Istok+Web:ital@0;1&family=Inter:wght@400;700&display=swap');
+
+
+.Portfolio h2,
+.Projects h2,
+.Extras h2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 5rem;
+}
+
 .information {
   background-color: #475e53;
   color: white;
+  padding-bottom: 20px;
 }
 
 .bio {
   background-color: #475e53;
   color: white;
   padding: 50px;
+}
+
+
+.bio h2 {
+  font-family: 'Italianno', 'cursive';
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 4rem;
+}
+
+.bio p {
+  font-family: 'Istok Web', Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
 }
 
 h2 {
@@ -23,6 +48,12 @@ h3 {
   justify-content: center;
   gap: 20rem;
   text-align: left;
+  font-size: 2rem;
+}
+
+.lists h3 {
+  font-size: 4rem;
+  padding-bottom: 20px;
 }
 .skills ul,
 .software ul {
@@ -38,14 +69,21 @@ h3 {
 }
 
 p {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
   text-align: center;
 }
+
 .projectshome {
   background-color: #4e4e4e;
   color: white;
-  padding: 20px;
+  padding: 70px;
+  font-size: 4rem;
+}
+
+.projectshome h2 {
+  font-size: 4rem;
 }
 
 .Portfolio {
@@ -63,7 +101,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("src\assets\WILSON\Wilson Poster.png");
+  background-image: url("./assets/Wilson Poster.png");
   background-size: cover;
   background-position: center;
   opacity: 30%;
@@ -71,8 +109,9 @@ p {
 }
 
 .Portfolio h2 {
+  font-family: 'Hermeneus One', sans-serif;
+  font-size: 5rem;
   text-align: center;
-  font-size: 4rem;
   color: black;
   opacity: 100%;
 }
@@ -92,7 +131,7 @@ p {
 .project1 img {
   width: 642px;
   height: 374px;
-  background-image: url("src\assets\TCC\TCC1.png");
+  background-image: url("./assets/TCC/TCC1.png");
   background-size: cover;
   background-position: 20%;
   border: 7px;
@@ -108,7 +147,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("src\assets\TCC\TCC2.png");
+  background-image: url("./assets/TCC/TCC2.png");
   background-size: cover;
   background-position: center;
   opacity: 50%;
@@ -130,6 +169,7 @@ p {
   overflow: hidden;
   background-color: #4e4e4e;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   gap: 20%;
 }
@@ -137,7 +177,7 @@ p {
 .project2 img {
   width: 642px;
   height: 374px;
-  background-image: url("src\assets\CC\CoduxComponents1.png");
+  background-image: url("./assets/CC/CoduxComponents1.png");
   background-size: cover;
   background-position: 20%;
   border: 7px;
@@ -153,7 +193,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("src\assets\CC\CoduxComponents2.png");
+  background-image: url("./assets/CC/CoduxComponents2.png");
   background-size: cover;
   background-position: center;
   opacity: 50%;
@@ -176,13 +216,13 @@ p {
   background-color: #4e4e4e;
   display: flex;
   align-items: center;
-  gap: 20%;
+  gap: 30%;
 }
 
 .project3 img {
   width: 642px;
   height: 374px;
-  background-image: url("src\assets\Squado\SquadoPrototype-1.png");
+  background-image: url("./assets/Squado/SquadoPrototype-1.png");
   background-size: cover;
   background-position: 20%;
   border: 7px;
@@ -198,7 +238,7 @@ p {
   left: 0;
   height: 100%;
   width: 100%;
-  background-image: url("src\assets\Squado\SquadoPrototype-1.png");
+  background-image: url("./assets/Squado/SquadoPrototype-1.png");
   background-size: cover;
   background-position: center;
   opacity: 50%;
@@ -211,3 +251,108 @@ p {
   color: white;
   opacity: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .bio,
+  .Portfolio,
+  .projectshome,
+  .project1,
+  .project2,
+  .project3 {
+    padding: 20px;
+  }
+
+  .project1,
+  .project2,
+  .project3 {
+    flex-direction: column !important;
+    gap: 1rem;
+  }
+
+  .project1 img,
+  .project2 img,
+  .project3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project1 h2,
+  .project2 h2,
+  .project3 h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Portfolio h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+  .lists {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project1 img,
+  .project2 img,
+  .project3 img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project1 img,
+  .project2 img,
+  .project3 img,
+  .work1 img,
+  .image1 img,
+  .image2 img {
+    display: none;
+  }
+
+  .project1,
+  .project2,
+  .project3,
+  .work1,
+  .image1,
+  .image2 {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .project1 h2,
+  .project2 h2,
+  .project3 h2,
+  .work1 h2,
+  .image1 h2,
+  .image2 h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+}
+
+.project1 h2,
+.project2 h2,
+.project3 h2,
+.work1 h2,
+.image1 h2,
+.image2 h2 {
+  font-family: 'Kadwa', serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
