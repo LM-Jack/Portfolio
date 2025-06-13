@@ -13,7 +13,7 @@ function Extras() {
       </div>
 
       <div className="work1">
-      <img src="./assets/Ye1.png" alt="Kanye West Website" />
+        <img src="./assets/Ye1.png" alt="Kanye West Website" />
         <h2>Kanye West Website</h2>
       </div>
       <div className="information">
@@ -49,7 +49,7 @@ function Extras() {
         <h2>Other Images</h2>
       </div>
       <div className="image1">
-      <img src="./assets/Customer Journey Map.png" alt="Customer Journey Map" />
+        <img src="./assets/Customer Journey Map.png" alt="Customer Journey Map" />
         <h2>User Journey Map</h2>
       </div>
 

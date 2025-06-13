@@ -1,4 +1,3 @@
-
 .custom-navbar {
   background-color: #4e4e4e !important;
   position: relative;
@@ -25,16 +24,16 @@
   height: 16vh;
 }
 
-  .custom-navbar .navbar {
-    position: relative;
-  }
+.custom-navbar .navbar {
+  position: relative;
+}
 
-  .custom-navbar .nav-link {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.3rem;
-  }
+.custom-navbar .nav-link {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.3rem;
+}
 
-  .navbar-toggler {    
-    border: none !important;  
-    box-shadow: none !important;             
-  }
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
