@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Hermeneus+One&family=Italianno&family=Kadwa:wght@400;700&family=Istok+Web:ital@0;1&family=Inter:wght@400;700&display=swap');
 
 
-.Portfolio h2,
-.Projects h2,
-.Extras h2 {
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: 500;
-  font-size: 5rem;
-}
-
 .information {
   background-color: #475e53;
   color: white;
@@ -356,3 +348,12 @@ p {
   font-size: 4rem;
 }
 
+
+
+.Portfolio h2,
+.projects h2,
+.Extras h2 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 5rem;
+}
