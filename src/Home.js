@@ -12,10 +12,7 @@ function Home() {
       <div className="bio">
         <h2>Bio</h2>
         <p>
-          Hi I'm Jack Kyffin, an up-and-coming web developer. This is my
-          portfolio website showcasing projects and content I've created during
-          my studies at LearnerMe Academy. These pieces reflect my skills,
-          creativity, and personal favorites.
+Hi, I'm Jack Kyffin, an up-and-coming web developer. This is my portfolio website showcasing projects and content I've created during my studies at LearnerMe Academy. These pieces reflect my skills, creativity, and personal favourites.
         </p>
       </div>
 

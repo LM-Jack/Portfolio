@@ -20,9 +20,9 @@ function Extras() {
         <div className="bio">
           <h2>Bio</h2>
           <p>
-            To practice our skills in prototyping and developing a website we were tasked to prototype and develop a website based on a certain topic.
-            The website i created was a information website about Kanye West and included a burger menu that navigated to different pages.
-            Unfortunately this website was never fully developed.
+To practice our skills in prototyping and developing a website, we were tasked to prototype and develop a website based on a certain topic.
+The website I created was an information website about Kanye West and included a burger menu that navigated to different pages.
+Unfortunately, this website was never fully developed.
 
           </p>
         </div>
