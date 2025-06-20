@@ -14,7 +14,7 @@ function Projects() {
       <div className="projects">
         <h2>Projects </h2>
       </div>
-      ;
+      
       <div className="project1">
         <img src="/assets/TCC/TCC1.png" alt="The Community Corner" />
         <h2>The Community Corner</h2>
